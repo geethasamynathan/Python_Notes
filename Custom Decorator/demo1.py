@@ -20,6 +20,7 @@ def log_execution(func):
 def add_numbers(a, b):
     """Function to add two numbers."""
     time.sleep(1)  # Simulate some processing delay
+    prodcut(45,3)
     return a + b
 
 @log_execution
